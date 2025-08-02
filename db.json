@@ -5,56 +5,56 @@
     "operator": "ZES (Zorlu Energy Solutions)",
     "logoUrl": "https://logo.clearbit.com/zes.net",
     "chargeTier": "AC (22 kW)",
-    "price": 5.99
+    "price": 8.25
   },
   {
     "id": "zes_dc_low",
     "operator": "ZES (Zorlu Energy Solutions)",
     "logoUrl": "https://logo.clearbit.com/zes.net",
     "chargeTier": "DC (<180 kW)",
-    "price": 9.99
+    "price": 10.49
   },
   {
     "id": "zes_dc_high",
     "operator": "ZES (Zorlu Energy Solutions)",
     "logoUrl": "https://logo.clearbit.com/zes.net",
     "chargeTier": "DC (>=180 kW)",
-    "price": 10.99
+    "price": 11.50
   },
   {
     "id": "esarj_ac",
     "operator": "Eşarj",
     "logoUrl": "https://logo.clearbit.com/esarj.com",
     "chargeTier": "AC (22 kW)",
-    "price": 7.89
+    "price": 8.15
   },
   {
     "id": "esarj_dc_low",
     "operator": "Eşarj",
     "logoUrl": "https://logo.clearbit.com/esarj.com",
     "chargeTier": "DC (22-100 kW)",
-    "price": 9.95
+    "price": 10.20
   },
   {
     "id": "esarj_dc_high",
     "operator": "Eşarj",
     "logoUrl": "https://logo.clearbit.com/esarj.com",
     "chargeTier": "DC (>100 kW)",
-    "price": 10.95
+    "price": 11.25
   },
   {
     "id": "trugo_dc_low",
     "operator": "Trugo",
     "logoUrl": "https://logo.clearbit.com/trugo.com.tr",
     "chargeTier": "DC (<180 kW)",
-    "price": 9.99
+    "price": 10.00
   },
   {
     "id": "trugo_dc_high",
     "operator": "Trugo",
     "logoUrl": "https://logo.clearbit.com/trugo.com.tr",
     "chargeTier": "DC (>=180 kW)",
-    "price": 10.99
+    "price": 11.00
   },
   {
     "id": "astor_ac",
@@ -69,5 +69,47 @@
     "logoUrl": "https://logo.clearbit.com/astor.com.tr",
     "chargeTier": "DC (Hızlı)",
     "price": 12.99
+  },
+  {
+    "id": "voltrun_ac",
+    "operator": "Voltrun",
+    "logoUrl": "https://logo.clearbit.com/voltrun.com",
+    "chargeTier": "AC (22 kW)",
+    "price": 8.50
+  },
+  {
+    "id": "voltrun_dc",
+    "operator": "Voltrun",
+    "logoUrl": "https://logo.clearbit.com/voltrun.com",
+    "chargeTier": "DC (50-120 kW)",
+    "price": 10.75
+  },
+  {
+    "id": "shell_recharge_ac",
+    "operator": "Shell Recharge",
+    "logoUrl": "https://logo.clearbit.com/shell.com",
+    "chargeTier": "AC (22 kW)",
+    "price": 8.40
+  },
+  {
+    "id": "shell_recharge_dc_high",
+    "operator": "Shell Recharge",
+    "logoUrl": "https://logo.clearbit.com/shell.com",
+    "chargeTier": "DC (180 kW)",
+    "price": 11.90
+  },
+  {
+    "id": "sharz_ac",
+    "operator": "Sharz",
+    "logoUrl": "https://logo.clearbit.com/sharz.net",
+    "chargeTier": "AC (22 kW)",
+    "price": 7.95
+  },
+  {
+    "id": "sharz_dc",
+    "operator": "Sharz",
+    "logoUrl": "https://logo.clearbit.com/sharz.net",
+    "chargeTier": "DC (50-150 kW)",
+    "price": 10.50
   }
 ]
