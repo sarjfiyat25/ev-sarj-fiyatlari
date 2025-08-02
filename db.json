@@ -1,0 +1,73 @@
+
+[
+  {
+    "id": "zes_ac",
+    "operator": "ZES (Zorlu Energy Solutions)",
+    "logoUrl": "https://logo.clearbit.com/zes.net",
+    "chargeTier": "AC (22 kW)",
+    "price": 7.99
+  },
+  {
+    "id": "zes_dc_low",
+    "operator": "ZES (Zorlu Energy Solutions)",
+    "logoUrl": "https://logo.clearbit.com/zes.net",
+    "chargeTier": "DC (<180 kW)",
+    "price": 9.99
+  },
+  {
+    "id": "zes_dc_high",
+    "operator": "ZES (Zorlu Energy Solutions)",
+    "logoUrl": "https://logo.clearbit.com/zes.net",
+    "chargeTier": "DC (>=180 kW)",
+    "price": 10.99
+  },
+  {
+    "id": "esarj_ac",
+    "operator": "Eşarj",
+    "logoUrl": "https://logo.clearbit.com/esarj.com",
+    "chargeTier": "AC (22 kW)",
+    "price": 7.89
+  },
+  {
+    "id": "esarj_dc_low",
+    "operator": "Eşarj",
+    "logoUrl": "https://logo.clearbit.com/esarj.com",
+    "chargeTier": "DC (22-100 kW)",
+    "price": 9.95
+  },
+  {
+    "id": "esarj_dc_high",
+    "operator": "Eşarj",
+    "logoUrl": "https://logo.clearbit.com/esarj.com",
+    "chargeTier": "DC (>100 kW)",
+    "price": 10.95
+  },
+  {
+    "id": "trugo_dc_low",
+    "operator": "Trugo",
+    "logoUrl": "https://logo.clearbit.com/trugo.com.tr",
+    "chargeTier": "DC (<180 kW)",
+    "price": 9.99
+  },
+  {
+    "id": "trugo_dc_high",
+    "operator": "Trugo",
+    "logoUrl": "https://logo.clearbit.com/trugo.com.tr",
+    "chargeTier": "DC (>=180 kW)",
+    "price": 10.99
+  },
+  {
+    "id": "astor_ac",
+    "operator": "Astor",
+    "logoUrl": "https://logo.clearbit.com/astor.com.tr",
+    "chargeTier": "AC (Yavaş)",
+    "price": 10.99
+  },
+  {
+    "id": "astor_dc",
+    "operator": "Astor",
+    "logoUrl": "https://logo.clearbit.com/astor.com.tr",
+    "chargeTier": "DC (Hızlı)",
+    "price": 12.99
+  }
+]
