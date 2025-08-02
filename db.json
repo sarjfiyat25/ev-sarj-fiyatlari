@@ -1,11 +1,10 @@
-
 [
   {
     "id": "zes_ac",
     "operator": "ZES (Zorlu Energy Solutions)",
     "logoUrl": "https://logo.clearbit.com/zes.net",
     "chargeTier": "AC (22 kW)",
-    "price": 8.25
+    "price": 4.25
   },
   {
     "id": "zes_dc_low",
@@ -19,7 +18,7 @@
     "operator": "ZES (Zorlu Energy Solutions)",
     "logoUrl": "https://logo.clearbit.com/zes.net",
     "chargeTier": "DC (>=180 kW)",
-    "price": 11.50
+    "price": 11.5
   },
   {
     "id": "esarj_ac",
@@ -33,7 +32,7 @@
     "operator": "Eşarj",
     "logoUrl": "https://logo.clearbit.com/esarj.com",
     "chargeTier": "DC (22-100 kW)",
-    "price": 10.20
+    "price": 10.2
   },
   {
     "id": "esarj_dc_high",
@@ -47,14 +46,14 @@
     "operator": "Trugo",
     "logoUrl": "https://logo.clearbit.com/trugo.com.tr",
     "chargeTier": "DC (<180 kW)",
-    "price": 10.00
+    "price": 10
   },
   {
     "id": "trugo_dc_high",
     "operator": "Trugo",
     "logoUrl": "https://logo.clearbit.com/trugo.com.tr",
     "chargeTier": "DC (>=180 kW)",
-    "price": 11.00
+    "price": 11
   },
   {
     "id": "astor_ac",
@@ -75,7 +74,7 @@
     "operator": "Voltrun",
     "logoUrl": "https://logo.clearbit.com/voltrun.com",
     "chargeTier": "AC (22 kW)",
-    "price": 8.50
+    "price": 8.5
   },
   {
     "id": "voltrun_dc",
@@ -89,14 +88,14 @@
     "operator": "Shell Recharge",
     "logoUrl": "https://logo.clearbit.com/shell.com",
     "chargeTier": "AC (22 kW)",
-    "price": 8.40
+    "price": 8.4
   },
   {
     "id": "shell_recharge_dc_high",
     "operator": "Shell Recharge",
     "logoUrl": "https://logo.clearbit.com/shell.com",
     "chargeTier": "DC (180 kW)",
-    "price": 11.90
+    "price": 11.9
   },
   {
     "id": "sharz_ac",
@@ -110,6 +109,6 @@
     "operator": "Sharz",
     "logoUrl": "https://logo.clearbit.com/sharz.net",
     "chargeTier": "DC (50-150 kW)",
-    "price": 10.50
+    "price": 10.5
   }
 ]
