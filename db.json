@@ -1,114 +1,632 @@
 [
   {
-    "id": "zes_ac",
-    "operator": "ZES (Zorlu Energy Solutions)",
-    "logoUrl": "https://logo.clearbit.com/zes.net",
     "chargeTier": "AC (22 kW)",
-    "price": 4.25
-  },
-  {
-    "id": "zes_dc_low",
-    "operator": "ZES (Zorlu Energy Solutions)",
+    "id": "zes_ac_22kw",
     "logoUrl": "https://logo.clearbit.com/zes.net",
-    "chargeTier": "DC (<180 kW)",
-    "price": 10.49
-  },
-  {
-    "id": "zes_dc_high",
     "operator": "ZES (Zorlu Energy Solutions)",
+    "price": 8.75
+  },
+  {
+    "chargeTier": "DC (60 kW)",
+    "id": "zes_dc_60kw",
     "logoUrl": "https://logo.clearbit.com/zes.net",
-    "chargeTier": "DC (>=180 kW)",
-    "price": 11.5
+    "operator": "ZES (Zorlu Energy Solutions)",
+    "price": 9.75
   },
   {
-    "id": "esarj_ac",
-    "operator": "Eşarj",
-    "logoUrl": "https://logo.clearbit.com/esarj.com",
-    "chargeTier": "AC (22 kW)",
-    "price": 8.15
-  },
-  {
-    "id": "esarj_dc_low",
-    "operator": "Eşarj",
-    "logoUrl": "https://logo.clearbit.com/esarj.com",
-    "chargeTier": "DC (22-100 kW)",
-    "price": 10.2
-  },
-  {
-    "id": "esarj_dc_high",
-    "operator": "Eşarj",
-    "logoUrl": "https://logo.clearbit.com/esarj.com",
-    "chargeTier": "DC (>100 kW)",
-    "price": 11.25
-  },
-  {
-    "id": "trugo_dc_low",
-    "operator": "Trugo",
-    "logoUrl": "https://logo.clearbit.com/trugo.com.tr",
-    "chargeTier": "DC (<180 kW)",
-    "price": 10
-  },
-  {
-    "id": "trugo_dc_high",
-    "operator": "Trugo",
-    "logoUrl": "https://logo.clearbit.com/trugo.com.tr",
-    "chargeTier": "DC (>=180 kW)",
-    "price": 11
-  },
-  {
-    "id": "astor_ac",
-    "operator": "Astor",
-    "logoUrl": "https://logo.clearbit.com/astor.com.tr",
-    "chargeTier": "AC (Yavaş)",
-    "price": 10.99
-  },
-  {
-    "id": "astor_dc",
-    "operator": "Astor",
-    "logoUrl": "https://logo.clearbit.com/astor.com.tr",
-    "chargeTier": "DC (Hızlı)",
-    "price": 12.99
-  },
-  {
-    "id": "voltrun_ac",
-    "operator": "Voltrun",
-    "logoUrl": "https://logo.clearbit.com/voltrun.com",
-    "chargeTier": "AC (22 kW)",
-    "price": 8.5
-  },
-  {
-    "id": "voltrun_dc",
-    "operator": "Voltrun",
-    "logoUrl": "https://logo.clearbit.com/voltrun.com",
-    "chargeTier": "DC (50-120 kW)",
+    "chargeTier": "DC (120 kW)",
+    "id": "zes_dc_120kw",
+    "logoUrl": "https://logo.clearbit.com/zes.net",
+    "operator": "ZES (Zorlu Energy Solutions)",
     "price": 10.75
   },
   {
-    "id": "shell_recharge_ac",
-    "operator": "Shell Recharge",
-    "logoUrl": "https://logo.clearbit.com/shell.com",
-    "chargeTier": "AC (22 kW)",
-    "price": 8.4
+    "chargeTier": "DC (>180 kW)",
+    "id": "zes_dc_180kw_plus",
+    "logoUrl": "https://logo.clearbit.com/zes.net",
+    "operator": "ZES (Zorlu Energy Solutions)",
+    "price": 11.75
   },
   {
-    "id": "shell_recharge_dc_high",
-    "operator": "Shell Recharge",
-    "logoUrl": "https://logo.clearbit.com/shell.com",
+    "chargeTier": "AC (22 kW)",
+    "id": "esarj_ac_22kw",
+    "logoUrl": "https://logo.clearbit.com/esarj.com",
+    "operator": "Eşarj",
+    "price": 8.6
+  },
+  {
+    "chargeTier": "DC (60 kW)",
+    "id": "esarj_dc_60kw",
+    "logoUrl": "https://logo.clearbit.com/esarj.com",
+    "operator": "Eşarj",
+    "price": 9.6
+  },
+  {
+    "chargeTier": "DC (120 kW)",
+    "id": "esarj_dc_120kw",
+    "logoUrl": "https://logo.clearbit.com/esarj.com",
+    "operator": "Eşarj",
+    "price": 10.6
+  },
+  {
+    "chargeTier": "DC (>180 kW)",
+    "id": "esarj_dc_180kw_plus",
+    "logoUrl": "https://logo.clearbit.com/esarj.com",
+    "operator": "Eşarj",
+    "price": 11.6
+  },
+  {
     "chargeTier": "DC (180 kW)",
-    "price": 11.9
+    "id": "trugo_dc_180kw",
+    "logoUrl": "https://logo.clearbit.com/trugo.com.tr",
+    "operator": "Trugo",
+    "price": 10.8
   },
   {
-    "id": "sharz_ac",
-    "operator": "Sharz",
-    "logoUrl": "https://logo.clearbit.com/sharz.net",
+    "chargeTier": "DC (300 kW)",
+    "id": "trugo_dc_300kw",
+    "logoUrl": "https://logo.clearbit.com/trugo.com.tr",
+    "operator": "Trugo",
+    "price": 11.8
+  },
+  {
     "chargeTier": "AC (22 kW)",
+    "id": "voltrun_ac_22kw",
+    "logoUrl": "https://logo.clearbit.com/voltrun.com.tr",
+    "operator": "Voltrun",
+    "price": 8.2
+  },
+  {
+    "chargeTier": "DC (60 kW)",
+    "id": "voltrun_dc_60kw",
+    "logoUrl": "https://logo.clearbit.com/voltrun.com.tr",
+    "operator": "Voltrun",
+    "price": 9.2
+  },
+  {
+    "chargeTier": "DC (120 kW)",
+    "id": "voltrun_dc_120kw",
+    "logoUrl": "https://logo.clearbit.com/voltrun.com.tr",
+    "operator": "Voltrun",
+    "price": 10.2
+  },
+  {
+    "chargeTier": "AC (22 kW)",
+    "id": "sharz_ac_22kw",
+    "logoUrl": "https://logo.clearbit.com/sharz.net",
+    "operator": "Sharz",
+    "price": 8.1
+  },
+  {
+    "chargeTier": "DC (60 kW)",
+    "id": "sharz_dc_60kw",
+    "logoUrl": "https://logo.clearbit.com/sharz.net",
+    "operator": "Sharz",
+    "price": 9.1
+  },
+  {
+    "chargeTier": "DC (120 kW)",
+    "id": "sharz_dc_120kw",
+    "logoUrl": "https://logo.clearbit.com/sharz.net",
+    "operator": "Sharz",
+    "price": 10.1
+  },
+  {
+    "chargeTier": "AC (22 kW)",
+    "id": "astor_ac_22kw",
+    "logoUrl": "https://logo.clearbit.com/astor.com.tr",
+    "operator": "Astor",
+    "price": 10.99
+  },
+  {
+    "chargeTier": "DC (>60 kW)",
+    "id": "astor_dc_fast",
+    "logoUrl": "https://logo.clearbit.com/astor.com.tr",
+    "operator": "Astor",
+    "price": 12.99
+  },
+  {
+    "chargeTier": "AC (22 kW)",
+    "id": "enyakit_ac_22kw",
+    "logoUrl": "https://logo.clearbit.com/enyakit.com",
+    "operator": "EnYakıt",
+    "price": 7.9
+  },
+  {
+    "chargeTier": "DC (60 kW)",
+    "id": "enyakit_dc_60kw",
+    "logoUrl": "https://logo.clearbit.com/enyakit.com",
+    "operator": "EnYakıt",
+    "price": 8.9
+  },
+  {
+    "chargeTier": "DC (120 kW)",
+    "id": "enyakit_dc_120kw",
+    "logoUrl": "https://logo.clearbit.com/enyakit.com",
+    "operator": "EnYakıt",
+    "price": 9.9
+  },
+  {
+    "chargeTier": "AC (22 kW)",
+    "id": "neva_ac_22kw",
+    "logoUrl": "https://logo.clearbit.com/nevaenerji.com.tr",
+    "operator": "Neva",
+    "price": 7.8
+  },
+  {
+    "chargeTier": "DC (60 kW)",
+    "id": "neva_dc_60kw",
+    "logoUrl": "https://logo.clearbit.com/nevaenerji.com.tr",
+    "operator": "Neva",
+    "price": 8.8
+  },
+  {
+    "chargeTier": "DC (120 kW)",
+    "id": "neva_dc_120kw",
+    "logoUrl": "https://logo.clearbit.com/nevaenerji.com.tr",
+    "operator": "Neva",
+    "price": 9.8
+  },
+  {
+    "chargeTier": "AC (22 kW)",
+    "id": "greensarj_ac_22kw",
+    "logoUrl": "https://logo.clearbit.com/greensarj.com",
+    "operator": "Greenşarj",
+    "price": 7.7
+  },
+  {
+    "chargeTier": "DC (60 kW)",
+    "id": "greensarj_dc_60kw",
+    "logoUrl": "https://logo.clearbit.com/greensarj.com",
+    "operator": "Greenşarj",
+    "price": 8.7
+  },
+  {
+    "chargeTier": "DC (120 kW)",
+    "id": "greensarj_dc_120kw",
+    "logoUrl": "https://logo.clearbit.com/greensarj.com",
+    "operator": "Greenşarj",
+    "price": 9.7
+  },
+  {
+    "chargeTier": "AC (22 kW)",
+    "id": "estasyon_ac_22kw",
+    "logoUrl": "https://logo.clearbit.com/estasyon.com.tr",
+    "operator": "Estasyon",
+    "price": 7.6
+  },
+  {
+    "chargeTier": "DC (60 kW)",
+    "id": "estasyon_dc_60kw",
+    "logoUrl": "https://logo.clearbit.com/estasyon.com.tr",
+    "operator": "Estasyon",
+    "price": 8.6
+  },
+  {
+    "chargeTier": "DC (120 kW)",
+    "id": "estasyon_dc_120kw",
+    "logoUrl": "https://logo.clearbit.com/estasyon.com.tr",
+    "operator": "Estasyon",
+    "price": 9.6
+  },
+  {
+    "chargeTier": "AC (22 kW)",
+    "id": "fge_ac_22kw",
+    "logoUrl": "https://logo.clearbit.com/fge.com.tr",
+    "operator": "FGE",
+    "price": 7.5
+  },
+  {
+    "chargeTier": "DC (60 kW)",
+    "id": "fge_dc_60kw",
+    "logoUrl": "https://logo.clearbit.com/fge.com.tr",
+    "operator": "FGE",
+    "price": 8.5
+  },
+  {
+    "chargeTier": "DC (120 kW)",
+    "id": "fge_dc_120kw",
+    "logoUrl": "https://logo.clearbit.com/fge.com.tr",
+    "operator": "FGE",
+    "price": 9.5
+  },
+  {
+    "chargeTier": "AC (22 kW)",
+    "id": "gcharge_ac_22kw",
+    "logoUrl": "https://logo.clearbit.com/g-charge.com.tr",
+    "operator": "G-Charge",
+    "price": 8
+  },
+  {
+    "chargeTier": "DC (60 kW)",
+    "id": "gcharge_dc_60kw",
+    "logoUrl": "https://logo.clearbit.com/g-charge.com.tr",
+    "operator": "G-Charge",
+    "price": 9
+  },
+  {
+    "chargeTier": "DC (120 kW)",
+    "id": "gcharge_dc_120kw",
+    "logoUrl": "https://logo.clearbit.com/g-charge.com.tr",
+    "operator": "G-Charge",
+    "price": 10
+  },
+  {
+    "chargeTier": "AC (22 kW)",
+    "id": "cwenerji_ac_22kw",
+    "logoUrl": "https://logo.clearbit.com/cwenerji.com",
+    "operator": "CW Enerji",
+    "price": 8.1
+  },
+  {
+    "chargeTier": "DC (60 kW)",
+    "id": "cwenerji_dc_60kw",
+    "logoUrl": "https://logo.clearbit.com/cwenerji.com",
+    "operator": "CW Enerji",
+    "price": 9.1
+  },
+  {
+    "chargeTier": "DC (120 kW)",
+    "id": "cwenerji_dc_120kw",
+    "logoUrl": "https://logo.clearbit.com/cwenerji.com",
+    "operator": "CW Enerji",
+    "price": 10.1
+  },
+  {
+    "chargeTier": "AC (22 kW)",
+    "id": "rhg_ac_22kw",
+    "logoUrl": "https://logo.clearbit.com/ronesans.com",
+    "operator": "RHG",
+    "price": 8.2
+  },
+  {
+    "chargeTier": "DC (60 kW)",
+    "id": "rhg_dc_60kw",
+    "logoUrl": "https://logo.clearbit.com/ronesans.com",
+    "operator": "RHG",
+    "price": 9.2
+  },
+  {
+    "chargeTier": "DC (120 kW)",
+    "id": "rhg_dc_120kw",
+    "logoUrl": "https://logo.clearbit.com/ronesans.com",
+    "operator": "RHG",
+    "price": 10.2
+  },
+  {
+    "chargeTier": "AC (22 kW)",
+    "id": "aykon_ac_22kw",
+    "logoUrl": "https://logo.clearbit.com/aykonenerji.com.tr",
+    "operator": "Aykon",
+    "price": 8.3
+  },
+  {
+    "chargeTier": "DC (60 kW)",
+    "id": "aykon_dc_60kw",
+    "logoUrl": "https://logo.clearbit.com/aykonenerji.com.tr",
+    "operator": "Aykon",
+    "price": 9.3
+  },
+  {
+    "chargeTier": "DC (120 kW)",
+    "id": "aykon_dc_120kw",
+    "logoUrl": "https://logo.clearbit.com/aykonenerji.com.tr",
+    "operator": "Aykon",
+    "price": 10.3
+  },
+  {
+    "chargeTier": "AC (22 kW)",
+    "id": "shellrecharge_ac_22kw",
+    "logoUrl": "https://logo.clearbit.com/shellrecharge.com.tr",
+    "operator": "Shell Recharge",
+    "price": 8.8
+  },
+  {
+    "chargeTier": "DC (50 kW)",
+    "id": "shellrecharge_dc_50kw",
+    "logoUrl": "https://logo.clearbit.com/shellrecharge.com.tr",
+    "operator": "Shell Recharge",
+    "price": 9.8
+  },
+  {
+    "chargeTier": "DC (150 kW)",
+    "id": "shellrecharge_dc_150kw",
+    "logoUrl": "https://logo.clearbit.com/shellrecharge.com.tr",
+    "operator": "Shell Recharge",
+    "price": 10.8
+  },
+  {
+    "chargeTier": "AC (22 kW)",
+    "id": "armatec_ac_22kw",
+    "logoUrl": "https://logo.clearbit.com/armatec.com.tr",
+    "operator": "Armatec",
     "price": 7.95
   },
   {
-    "id": "sharz_dc",
-    "operator": "Sharz",
-    "logoUrl": "https://logo.clearbit.com/sharz.net",
-    "chargeTier": "DC (50-150 kW)",
-    "price": 10.5
+    "chargeTier": "DC (60 kW)",
+    "id": "armatec_dc_60kw",
+    "logoUrl": "https://logo.clearbit.com/armatec.com.tr",
+    "operator": "Armatec",
+    "price": 8.95
+  },
+  {
+    "chargeTier": "DC (120 kW)",
+    "id": "armatec_dc_120kw",
+    "logoUrl": "https://logo.clearbit.com/armatec.com.tr",
+    "operator": "Armatec",
+    "price": 9.95
+  },
+  {
+    "chargeTier": "AC (22 kW)",
+    "id": "mirsarj_ac_22kw",
+    "logoUrl": "https://logo.clearbit.com/mirsarj.com",
+    "operator": "Mirşarj",
+    "price": 7.85
+  },
+  {
+    "chargeTier": "DC (60 kW)",
+    "id": "mirsarj_dc_60kw",
+    "logoUrl": "https://logo.clearbit.com/mirsarj.com",
+    "operator": "Mirşarj",
+    "price": 8.85
+  },
+  {
+    "chargeTier": "DC (120 kW)",
+    "id": "mirsarj_dc_120kw",
+    "logoUrl": "https://logo.clearbit.com/mirsarj.com",
+    "operator": "Mirşarj",
+    "price": 9.85
+  },
+  {
+    "chargeTier": "AC (22 kW)",
+    "id": "petrolofisi_ac_22kw",
+    "logoUrl": "https://logo.clearbit.com/poch.com.tr",
+    "operator": "Petrol Ofisi",
+    "price": 8.4
+  },
+  {
+    "chargeTier": "DC (60 kW)",
+    "id": "petrolofisi_dc_60kw",
+    "logoUrl": "https://logo.clearbit.com/poch.com.tr",
+    "operator": "Petrol Ofisi",
+    "price": 9.4
+  },
+  {
+    "chargeTier": "DC (120 kW)",
+    "id": "petrolofisi_dc_120kw",
+    "logoUrl": "https://logo.clearbit.com/poch.com.tr",
+    "operator": "Petrol Ofisi",
+    "price": 10.4
+  },
+  {
+    "chargeTier": "AC (22 kW)",
+    "id": "samuray_ac_22kw",
+    "logoUrl": "https://logo.clearbit.com/samurayenerji.com",
+    "operator": "Samuray",
+    "price": 7.75
+  },
+  {
+    "chargeTier": "DC (60 kW)",
+    "id": "samuray_dc_60kw",
+    "logoUrl": "https://logo.clearbit.com/samurayenerji.com",
+    "operator": "Samuray",
+    "price": 8.75
+  },
+  {
+    "chargeTier": "DC (120 kW)",
+    "id": "samuray_dc_120kw",
+    "logoUrl": "https://logo.clearbit.com/samurayenerji.com",
+    "operator": "Samuray",
+    "price": 9.75
+  },
+  {
+    "chargeTier": "AC (22 kW)",
+    "id": "fullcharger_ac_22kw",
+    "logoUrl": "https://logo.clearbit.com/fullcharger.com.tr",
+    "operator": "Full",
+    "price": 8.05
+  },
+  {
+    "chargeTier": "DC (60 kW)",
+    "id": "fullcharger_dc_60kw",
+    "logoUrl": "https://logo.clearbit.com/fullcharger.com.tr",
+    "operator": "Full",
+    "price": 9.05
+  },
+  {
+    "chargeTier": "DC (120 kW)",
+    "id": "fullcharger_dc_120kw",
+    "logoUrl": "https://logo.clearbit.com/fullcharger.com.tr",
+    "operator": "Full",
+    "price": 10.05
+  },
+  {
+    "chargeTier": "AC (22 kW)",
+    "id": "borenco_ac_22kw",
+    "logoUrl": "https://logo.clearbit.com/borenco.com.tr",
+    "operator": "Borenco",
+    "price": 7.9
+  },
+  {
+    "chargeTier": "DC (60 kW)",
+    "id": "borenco_dc_60kw",
+    "logoUrl": "https://logo.clearbit.com/borenco.com.tr",
+    "operator": "Borenco",
+    "price": 8.9
+  },
+  {
+    "chargeTier": "DC (120 kW)",
+    "id": "borenco_dc_120kw",
+    "logoUrl": "https://logo.clearbit.com/borenco.com.tr",
+    "operator": "Borenco",
+    "price": 9.9
+  },
+  {
+    "chargeTier": "AC (22 kW)",
+    "id": "vestarj_ac_22kw",
+    "logoUrl": "https://logo.clearbit.com/vestarj.com.tr",
+    "operator": "Vestarj",
+    "price": 7.8
+  },
+  {
+    "chargeTier": "DC (60 kW)",
+    "id": "vestarj_dc_60kw",
+    "logoUrl": "https://logo.clearbit.com/vestarj.com.tr",
+    "operator": "Vestarj",
+    "price": 8.8
+  },
+  {
+    "chargeTier": "DC (120 kW)",
+    "id": "vestarj_dc_120kw",
+    "logoUrl": "https://logo.clearbit.com/vestarj.com.tr",
+    "operator": "Vestarj",
+    "price": 9.8
+  },
+  {
+    "chargeTier": "AC (22 kW)",
+    "id": "bcharge_ac_22kw",
+    "logoUrl": "https://logo.clearbit.com/b-charge.com.tr",
+    "operator": "B-Charge",
+    "price": 7.7
+  },
+  {
+    "chargeTier": "DC (60 kW)",
+    "id": "bcharge_dc_60kw",
+    "logoUrl": "https://logo.clearbit.com/b-charge.com.tr",
+    "operator": "B-Charge",
+    "price": 8.7
+  },
+  {
+    "chargeTier": "DC (120 kW)",
+    "id": "bcharge_dc_120kw",
+    "logoUrl": "https://logo.clearbit.com/b-charge.com.tr",
+    "operator": "B-Charge",
+    "price": 9.7
+  },
+  {
+    "chargeTier": "AC (22 kW)",
+    "id": "whiterose_ac_22kw",
+    "logoUrl": "https://logo.clearbit.com/whiterose.com.tr",
+    "operator": "White Rose",
+    "price": 7.6
+  },
+  {
+    "chargeTier": "DC (60 kW)",
+    "id": "whiterose_dc_60kw",
+    "logoUrl": "https://logo.clearbit.com/whiterose.com.tr",
+    "operator": "White Rose",
+    "price": 8.6
+  },
+  {
+    "chargeTier": "DC (120 kW)",
+    "id": "whiterose_dc_120kw",
+    "logoUrl": "https://logo.clearbit.com/whiterose.com.tr",
+    "operator": "White Rose",
+    "price": 9.6
+  },
+  {
+    "chargeTier": "AC (22 kW)",
+    "id": "zcharge_ac_22kw",
+    "logoUrl": "https://logo.clearbit.com/zcharge.com.tr",
+    "operator": "Z Charge",
+    "price": 7.5
+  },
+  {
+    "chargeTier": "DC (60 kW)",
+    "id": "zcharge_dc_60kw",
+    "logoUrl": "https://logo.clearbit.com/zcharge.com.tr",
+    "operator": "Z Charge",
+    "price": 8.5
+  },
+  {
+    "chargeTier": "DC (120 kW)",
+    "id": "zcharge_dc_120kw",
+    "logoUrl": "https://logo.clearbit.com/zcharge.com.tr",
+    "operator": "Z Charge",
+    "price": 9.5
+  },
+  {
+    "chargeTier": "AC (22 kW)",
+    "id": "vizyon_ac_22kw",
+    "logoUrl": "https://logo.clearbit.com/vizyonenerji.com.tr",
+    "operator": "Vizyon",
+    "price": 7.4
+  },
+  {
+    "chargeTier": "DC (60 kW)",
+    "id": "vizyon_dc_60kw",
+    "logoUrl": "https://logo.clearbit.com/vizyonenerji.com.tr",
+    "operator": "Vizyon",
+    "price": 8.4
+  },
+  {
+    "chargeTier": "DC (120 kW)",
+    "id": "vizyon_dc_120kw",
+    "logoUrl": "https://logo.clearbit.com/vizyonenerji.com.tr",
+    "operator": "Vizyon",
+    "price": 9.4
+  },
+  {
+    "chargeTier": "AC (22 kW)",
+    "id": "powersarj_ac_22kw",
+    "logoUrl": "https://logo.clearbit.com/powersarj.com",
+    "operator": "Powerşarj",
+    "price": 7.3
+  },
+  {
+    "chargeTier": "DC (60 kW)",
+    "id": "powersarj_dc_60kw",
+    "logoUrl": "https://logo.clearbit.com/powersarj.com",
+    "operator": "Powerşarj",
+    "price": 8.3
+  },
+  {
+    "chargeTier": "DC (120 kW)",
+    "id": "powersarj_dc_120kw",
+    "logoUrl": "https://logo.clearbit.com/powersarj.com",
+    "operator": "Powerşarj",
+    "price": 9.3
+  },
+  {
+    "chargeTier": "AC (22 kW)",
+    "id": "ecovat_ac_22kw",
+    "logoUrl": "https://logo.clearbit.com/ecovat.com.tr",
+    "operator": "Ecovat",
+    "price": 7.2
+  },
+  {
+    "chargeTier": "DC (60 kW)",
+    "id": "ecovat_dc_60kw",
+    "logoUrl": "https://logo.clearbit.com/ecovat.com.tr",
+    "operator": "Ecovat",
+    "price": 8.2
+  },
+  {
+    "chargeTier": "DC (120 kW)",
+    "id": "ecovat_dc_120kw",
+    "logoUrl": "https://logo.clearbit.com/ecovat.com.tr",
+    "operator": "Ecovat",
+    "price": 9.2
+  },
+  {
+    "chargeTier": "AC (22 kW)",
+    "id": "beefull_ac_22kw",
+    "logoUrl": "https://logo.clearbit.com/beefull.com.tr",
+    "operator": "Beefull",
+    "price": 7.1
+  },
+  {
+    "chargeTier": "DC (60 kW)",
+    "id": "beefull_dc_60kw",
+    "logoUrl": "https://logo.clearbit.com/beefull.com.tr",
+    "operator": "Beefull",
+    "price": 8.1
+  },
+  {
+    "chargeTier": "DC (120 kW)",
+    "id": "beefull_dc_120kw",
+    "logoUrl": "https://logo.clearbit.com/beefull.com.tr",
+    "operator": "Beefull",
+    "price": 9.1
   }
 ]
